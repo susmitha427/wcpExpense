@@ -1,0 +1,23 @@
+{
+  "applicationId": "myExpenseApp",
+  "tasks": [
+    {
+      "id": "root",
+      "routingPattern": "/",
+      "page": {
+        "id": "home"
+      }
+    }
+  ],
+  "dataProviders": [
+    {
+      "key": "Example",
+      "value": "https://dog.ceo/api"
+
+    },
+    {
+      "key": "Expense",
+      "value": "https://api.workday.com/expense/v1"
+    }
+  ]
+}
