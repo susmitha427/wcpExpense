@@ -1,0 +1,46 @@
+{
+  "id": "home",
+  "endPoints" :[
+    {
+    "name": "Expensedata",
+    "baseUrlType": "Expense",
+    "url": "/entries",
+    "authType": "NOAUTH"
+
+
+    },
+    {
+      "name": "Exampledata",
+      "baseUrlType": "Example",
+      "url": "/breeds/list",
+      "authType": "NOAUTH"
+
+    }],
+  "presentation": {
+    "title": {
+      "type": "title",
+      "label": "Workday Extend"
+    },
+    "body": {
+      "type": "section",
+      "children": [
+        {
+          "type": "richText",
+          "id": "hello",
+          "label": "Hello World!",
+          "value": "Welcome to your <b>Workday Extend</b> App. Deployed by the Workday Extend Plugin for IntelliJ."
+        }
+      ]
+    },
+    "footer": {
+      "type": "footer",
+      "children": [
+        {
+          "type": "richText",
+          "enabled": "false",
+          "value": "Powered By Workday Extend"
+        }
+      ]
+    }
+  }
+}
